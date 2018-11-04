@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 *, *::before, *::after {
   box-sizing: border-box; }
 
@@ -7,4 +8,25 @@ h1, h2, h3, h4, h5, p, ul, li {
 
 html, body {
   height: 100%;
-  background-color: #fff; }
+  background-color: #fff;
+  font-family: 'Open Sans', sans-serif; }
+
+h1 {
+  margin: auto; }
+
+ul {
+  list-style-type: none; }
+
+.item {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 20px; }
+
+#container-json {
+  background: pink;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: auto;
+  max-width: 90%; }
